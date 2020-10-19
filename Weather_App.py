@@ -21,12 +21,11 @@ def GetWeather():
     City_humidity=Weatherdata["main"]["humidity"]
 
     #Printing the weather Detail.
-
-    print("Main Weather Condition =>> "+MainWeather_Data)
+    
+    print(f"\nMain Weather Condition =>> {MainWeather_Data}")
     #getting City Temp in Kelvin.
-    print(City_Temprature)   
-    print(City_humidity)
-    print("Description =>> "+Description_data)
-
+    print(f"The Temprature in Kelvin ==> {City_Temprature}")   
+    print(f"The Humidity in air is ==> {City_humidity}")
+    print(f"Description =>> {Description_data}")
 # Calling the Function.
 GetWeather()
