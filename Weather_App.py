@@ -1,4 +1,3 @@
-#importing request module to work with API.
 import requests
 
 def GetWeather():
